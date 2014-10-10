@@ -1,0 +1,3 @@
+version=3
+opts=uversionmangle=s/(rc|dev|a|b|c)/~$1/ \
+https://pypi.python.org/packages/source/c/click/click-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))

@@ -1,0 +1,6 @@
+python-click (3.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #764953)
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Fri, 10 Oct 2014 12:56:09 -0400
+

@@ -1,0 +1,50 @@
+Source: python-click
+Maintainer: Alexandre Viau <alexandre@alexandreviau.net>
+Homepage: https://github.com/mitsuhiko/click
+Section: python
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.3
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python-pytest,
+               python-colorama,
+               python3-all,
+               python3-setuptools,
+               python3-requests,
+               python3-pytest,
+               python3-colorama
+Standards-Version: 3.9.6
+
+Package: python-click
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-colorama
+Description: Simple wrapper around optparse for powerful command line utilities
+ Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary.  It's the "Command
+ Line Interface Creation Kit".  It's highly configurable but comes with
+ sensible defaults out of the box.
+ .
+ It aims to make the process of writing command line tools quick and fun
+ while also preventing any frustration caused by the inability to implement
+ an intended CLI API.
+ .
+ This is the Python 2 compatible package.
+
+Package: python3-click
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, python3-colorama
+Description: Simple wrapper around optparse for powerful command line utilities
+ Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary.  It's the "Command
+ Line Interface Creation Kit".  It's highly configurable but comes with
+ sensible defaults out of the box.
+ .
+ It aims to make the process of writing command line tools quick and fun
+ while also preventing any frustration caused by the inability to implement
+ an intended CLI API.
+ .
+ This is the Python 3 compatible package.
+
