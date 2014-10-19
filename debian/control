@@ -1,6 +1,8 @@
 Source: python-click
 Maintainer: Alexandre Viau <alexandre@alexandreviau.net>
 Homepage: https://github.com/mitsuhiko/click
+Vcs-Git: git://anonscm.debian.org/collab-maint/python-click.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/python-click.git
 Section: python
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.3
